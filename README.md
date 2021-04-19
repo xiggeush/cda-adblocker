@@ -2,15 +2,6 @@
 Simple extension for Google Chrome to block ads on cda.pl
 
 ## Installation
-There are two options two install this extension: packed or unpacked version  
-
-Installing packed version:
-- Download cda-adblocker.crx to your computer
-- Eneable developer mode in the upper right corner  
-![image](https://user-images.githubusercontent.com/22548407/115220664-18ee9a80-a109-11eb-80cb-4ba28f7ae11e.png)
-- Drag and drop the cda-adblocker.crx file on Google Chrome
-
-Installing unpacked version:
 - Download this repo to your computer
 - in Google Chrome go to `chrome://extensions`
 - Eneable developer mode in the upper right corner  
