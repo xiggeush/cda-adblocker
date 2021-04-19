@@ -1,9 +1,16 @@
 var logs=[]
 var on=true
 
+function isBlocking(url)
+{
+    return url.indexOf('g.cda.pl')!=-1
+}
+
 function callback(details)
 {
-    logs.push(JSON.stringify(details))
+    var now=new Date()
+    var timestamp=now.getHours()+':'+now.getMinutes()+':'+now.getSeconds()+','+now.getMilliseconds()
+    logs.push(timestamp+'\tblocking='+isBlocking(details.url).toString()+'\t'+JSON.stringify(details)+'\n')
 }
 
 chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
