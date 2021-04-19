@@ -1,0 +1,31 @@
+{
+    "name": "Getting Started Example",
+    "description": "Build an Extension!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background-worker.js"
+    },
+    "declarative_net_request": {
+        "rule_resources": [{
+            "id": "cda",
+            "enabled": true,
+            "path": "rule.json"
+        }]
+    },
+    "permissions": [
+        "storage", 
+        "activeTab", 
+        "scripting",
+        "webRequest",
+        "declarativeNetRequest",
+        "declarativeNetRequestFeedback",
+        "downloads"
+    ],
+    "host_permissions": [
+        "*://*.cda.pl/*"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
