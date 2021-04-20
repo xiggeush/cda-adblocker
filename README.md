@@ -8,7 +8,7 @@ Simple extension for Google Chrome to block ads on cda.pl
 ![image](https://user-images.githubusercontent.com/22548407/115220664-18ee9a80-a109-11eb-80cb-4ba28f7ae11e.png)
 - Click Load Unpacked and select folder with this repo
 
-## Diseabling/Eneabling extension
+## Disabling/Enabling extension
 Click on the extension and then click Turn on/off
 
 ## Problems
