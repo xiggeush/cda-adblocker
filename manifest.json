@@ -14,9 +14,6 @@
         }]
     },
     "permissions": [
-        "storage", 
-        "activeTab", 
-        "scripting",
         "webRequest",
         "declarativeNetRequest",
         "declarativeNetRequestFeedback",
