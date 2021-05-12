@@ -1,5 +1,5 @@
 # CDA Adblocker
-Simple extension for Google Chrome to block ads on cda.pl
+Simple extension for Google Chrome to block ads on cda.pl (simpler way of doing it is just adding "g.cda.pl" to any adblock)
 
 ## Installation
 - Download this repo to your computer
