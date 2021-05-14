@@ -1,9 +1,34 @@
+body {
+    background: #151718;
+    max-width: 150px;
+    width: 150px;
+    min-width: 150px;
+}
+
 #container {
     font-size: 10px;
     text-align: center;
+    /* width: 50%; */
 }
 
 
 button {
+    background: #151718;
+    color: #999;
+    font-weight: 600;
+    font-size: 13px;
+    border: 2px solid #181b1c;
+    border-radius: 2px;
     margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button:hover {
+    color: #fff;
+    background: #242829cf718cf;
+    border: 2px solid #9e2105;
+    transition: 0.3s;
 }
