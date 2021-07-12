@@ -28,7 +28,7 @@ button {
 
 button:hover {
     color: #fff;
-    background: #242829cf718cf;
+    background: rgba(36, 40, 41, 0.81);
     border: 2px solid #9e2105;
     transition: 0.3s;
 }
